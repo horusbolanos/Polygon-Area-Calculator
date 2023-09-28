@@ -50,15 +50,3 @@ class Square(Rectangle):
 
     def __str__(self):
         return f"Square(side={self.width})"
-
-from shape_calculator import Rectangle
-
-# Crear una instancia de Rectangle
-rect = Rectangle(10, 5)
-
-# Llamar a los métodos y mostrar los resultados
-print("Área del rectángulo:", rect.get_area())
-rect.set_height(3)
-print("Perímetro del rectángulo:", rect.get_perimeter())
-print("Representación del rectángulo:")
-print(rect.get_picture())
